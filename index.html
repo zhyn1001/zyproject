@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<script src="js/dialog.js"></script>
 	<title>Document</title>
 </head>
 <body>
-	hello world
+	<button class="btn-dialog">弹框</button>
 </body>
+<script>
+	window.onload = function(){
+		var btn = document.querySelector(".btn-dialog");
+		btn.onclick=function(){
+			dialog.alert({})
+		}
+	}
+	
+</script>
 </html>
