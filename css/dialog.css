@@ -1,0 +1,22 @@
+/*content*/
+.dialog_content{
+	padding:10px;
+	height:100px;
+	background:#000;
+}
+.dialog_btn_box{
+	height:40px;
+	line-height: 40px;
+	margin: auto;
+}
+.dialog_yes{
+	height:30px;
+	width:60px;
+	font-size: 13px;
+	display: inline-block;
+	background:blue;
+	color:#fff;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
